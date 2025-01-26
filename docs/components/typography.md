@@ -1,6 +1,6 @@
-# Text
+# Typography
 
-The **Text** component is a wrapper for Material-UI's `Typography` that provides an easy way to render text with different styles and variants.
+The **Typography** component is a wrapper for Material-UI's `Typography` that provides an easy way to render text with different styles and variants.
 
 This component wraps Material-UI’s `Typography` component and allows you to easily control the text's style by specifying the variant you need.
 
@@ -11,7 +11,7 @@ Each component in this boilerplate can be imported from the `components` project
 ### Example:
 
 ```jsx
-import { Text } from "components";
+import { Typography } from "components";
 ```
 
 Ensure your `package.json` references the `components` project and that the version matches.
@@ -26,13 +26,13 @@ Ensure your `package.json` references the `components` project and that the vers
 
 ### Example
 
-Here’s a simple example of using the `Text` wrapper:
+Here’s a simple example of using the `Typography` wrapper:
 
 ```jsx
-import { Text } from "components";
+import { Typography } from "components";
 
 function MyApp() {
-  return <Text variant="h4">This is a heading</Text>;
+  return <Typography variant="h4">This is a heading</Typography>;
 }
 
 export default MyApp;
@@ -53,15 +53,15 @@ export default MyApp;
 #### Example with Custom Variant
 
 ```jsx
-import { Text } from "components";
+import { Typography } from "components";
 
 function MyApp() {
   return (
     <div>
-      <Text variant="h2">Main Title</Text>
-      <Text variant="body1">
+      <Typography variant="h2">Main Title</Typography>
+      <Typography variant="body1">
         This is a paragraph of body text, styled with the "body1" variant.
-      </Text>
+      </Typography>
     </div>
   );
 }

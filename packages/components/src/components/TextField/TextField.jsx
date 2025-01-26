@@ -1,15 +1,15 @@
 import React from "react";
-import { TextField } from "@mui/material";
+import { TextField as MUITextField } from "@mui/material";
 import PropTypes from "prop-types";
 
-function FormField({
+function TextField({
   label,
   variant = "outlined",
   fullWidth = true,
   ...props
 }) {
   return (
-    <TextField
+    <MUITextField
       label={label}
       variant={variant}
       fullWidth={fullWidth}
@@ -18,9 +18,9 @@ function FormField({
   );
 }
 
-export default FormField;
+export default TextField;
 
-FormField.propTypes = {
+TextField.propTypes = {
   label: PropTypes.string.isRequired,
   variant: PropTypes.oneOf(["outlined", "filled", "standard"]),
   fullWidth: PropTypes.bool,

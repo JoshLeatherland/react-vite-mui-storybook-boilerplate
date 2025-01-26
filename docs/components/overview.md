@@ -7,13 +7,13 @@ This section provides a set of wrapper components based on each Material-UI comp
 - [AppBar](./appbar)
 - [Button](./button)
 - [Dialog](./dialog)
-- [FormField](./formfield)
+- [TextField](./textfield)
 - [Modal](./modal)
 - [Select](./select)
 - [Snackbar](./snackbar)
 - [Switch](./switch)
 - [Table](./table)
 - [Tabs](./tabs)
-- [Text](./text)
+- [Typography](./typography)
 
 Each component is fully customizable and comes with predefined configurations to help you get started quickly. Click on any of the links above to explore the component's detailed documentation and code examples.

@@ -1,9 +1,9 @@
 import React from "react";
-import Text from "./Text";
+import Typography from "./Typography";
 
 export default {
-  title: "Components/Text",
-  component: Text,
+  title: "Components/Typography",
+  component: Typography,
   tags: ["autodocs"],
   argTypes: {
     variant: {
@@ -28,7 +28,9 @@ export default {
   },
 };
 
-const Template = (args) => <Text {...args}>This is a text component</Text>;
+const Template = (args) => (
+  <Typography {...args}>This is a text component</Typography>
+);
 
 export const Default = Template.bind({});
 Default.args = {

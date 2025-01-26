@@ -1,18 +1,18 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import { Typography as MUITypography } from "@mui/material";
 import PropTypes from "prop-types";
 
-function Text({ variant = "body1", children, ...props }) {
+function Typography({ variant = "body1", children, ...props }) {
   return (
-    <Typography variant={variant} {...props}>
+    <MUITypography variant={variant} {...props}>
       {children}
-    </Typography>
+    </MUITypography>
   );
 }
 
-export default Text;
+export default Typography;
 
-Text.propTypes = {
+Typography.propTypes = {
   variant: PropTypes.oneOf([
     "h1",
     "h2",

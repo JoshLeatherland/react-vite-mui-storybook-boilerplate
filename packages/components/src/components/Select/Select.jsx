@@ -11,7 +11,7 @@ function Select({ label, options, value, onChange, ...props }) {
   return (
     <FormControl fullWidth>
       <InputLabel>{label}</InputLabel>
-      <MUISelect value={value} onChange={onChange} {...props}>
+      <MUISelect value={value} onChange={onChange} {...props} label={label}>
         {options.map((option, index) => (
           <MenuItem key={index} value={option.value}>
             {option.label}

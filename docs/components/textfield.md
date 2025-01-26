@@ -1,6 +1,6 @@
-# FormField
+# TextField
 
-The **FormField** component is a wrapper for Material-UI's `TextField` that simplifies the process of creating form fields with consistent styling and behavior.
+The **TextField** component is a wrapper for Material-UI's `TextField` that simplifies the process of creating form fields with consistent styling and behavior.
 
 This component wraps Material-UI’s `TextField` and provides customizable options such as the label, variant, and width, making it easy to integrate into your forms.
 
@@ -11,7 +11,7 @@ Each component in this boilerplate can be imported from the `components` project
 ### Example:
 
 ```jsx
-import { FormField } from "components";
+import { TextField } from "components";
 ```
 
 Ensure your `package.json` references the `components` project and that the version matches.
@@ -26,14 +26,14 @@ Ensure your `package.json` references the `components` project and that the vers
 
 ### Example
 
-Here’s a simple example of using the `FormField` wrapper:
+Here’s a simple example of using the `TextField` wrapper:
 
 ```jsx
-import { FormField } from "components";
+import { TextField } from "components";
 
 function MyApp() {
   return (
-    <FormField
+    <TextField
       label="Your Name"
       onChange={(e) => console.log(e.target.value)}
     />
@@ -57,18 +57,18 @@ export default MyApp;
   Defaults to `"outlined"`.
 
 - **`fullWidth`**: _(optional)_ A boolean to control whether the text field should take up the full width of its container. Defaults to `true`.
-- **`props`**: Any other props passed to the `FormField` will be forwarded to the Material-UI `TextField` component.
+- **`props`**: Any other props passed to the `TextField` will be forwarded to the Material-UI `TextField` component.
 
 #### Example with Custom Variants
 
 ```jsx
-import { FormField } from "components";
+import { TextField } from "components";
 
 function MyApp() {
   return (
     <div>
-      <FormField label="Email Address" variant="filled" />
-      <FormField label="Phone Number" variant="standard" />
+      <TextField label="Email Address" variant="filled" />
+      <TextField label="Phone Number" variant="standard" />
     </div>
   );
 }
@@ -76,7 +76,7 @@ function MyApp() {
 export default MyApp;
 ```
 
-In this example, there are two `FormField` components, each with different variants: `filled` and `standard`.
+In this example, there are two `TextField` components, each with different variants: `filled` and `standard`.
 
 ## Notes
 
