@@ -1,7 +1,7 @@
 {
   "name": "react-vite-mui-storybook-boilerplate",
   "homepage": "https://joshleatherland.github.io/react-vite-mui-storybook-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Boilerplate for React using Vite, Material UI (MUI) , Storybook and i18n",
   "main": "index.js",
   "workspaces": [
