@@ -1,9 +1,9 @@
 import React from "react";
-import FormField from "./FormField";
+import TextField from "./TextField";
 
 export default {
-  title: "Components/FormField",
-  component: FormField,
+  title: "Components/TextField",
+  component: TextField,
   argTypes: {
     variant: { control: "radio", options: ["outlined", "filled", "standard"] },
     fullWidth: { control: "boolean" },
@@ -11,7 +11,7 @@ export default {
   tags: ["autodocs"],
 };
 
-const Template = (args) => <FormField {...args} />;
+const Template = (args) => <TextField {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

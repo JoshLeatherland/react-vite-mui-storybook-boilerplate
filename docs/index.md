@@ -14,8 +14,10 @@ hero:
 features:
   - title: "NPM Workspace"
     details: "Leverage the power of NPM workspaces to seamlessly grow and scale your project."
+    link: "/workspace/workspace-guide"
   - title: "Material-UI Component Library"
     details: "Includes a curated set of Material-UI components with pre-built Storybook stories."
+    link: "/components/overview"
   - title: "i18n Translation Support (SOON)"
     details: "Easily add multilingual capabilities to your app with i18n integration."
 ---
